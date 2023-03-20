@@ -4,5 +4,9 @@ function buzz(num)
     {
         return "buzz";
     }
+    if(num%5==0)
+    {
+        return "buzz"
+    }
 }
 export default buzz;

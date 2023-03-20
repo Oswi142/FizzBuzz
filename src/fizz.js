@@ -4,5 +4,9 @@ function fizz(num)
     {
         return "fizz";
     }
+    if(num%3==0)
+    {
+        return "fizz"
+    }
 }
 export default fizz;
