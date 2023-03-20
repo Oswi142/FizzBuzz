@@ -14,3 +14,9 @@ it("Debe retornar buzz si es 5", () => {
     });
 });
 
+describe("FizzBuzz", () => {
+  it("Debe retornar fizzbuzz si es multiplo de 3 y 5", () => {
+      expect(fizzbuzz(15)).toEqual("fizzbuzz");
+      });
+  });
+
