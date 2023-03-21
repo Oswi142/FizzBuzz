@@ -20,9 +20,8 @@ describe("FizzBuzz", () => {
       });
   });
 
-  describe("FizzBuzz", () => {
-    it("Debe retornar fizzbuzz si es multiplo de 3 y 5", () => {
-        expect(fizzbuzz(30)).toEqual("fizzbuzz");
-        });
-    });
-
+describe("FizzBuzz", () => {
+  it("Debe retornar fizzbuzz si es multiplo de 3 y 5", () => {
+      expect(fizzbuzz(30)).toEqual("fizzbuzz");
+      });
+  });
