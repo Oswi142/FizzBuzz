@@ -1,12 +1,8 @@
 function fizz(num)
 {
-    if(num==3)
-    {
-        return "fizz";
-    }
     if(num%3==0)
     {
-        return "fizz"
+        return "Fizz"
     }
 }
 export default fizz;
